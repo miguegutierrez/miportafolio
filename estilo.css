@@ -1,0 +1,100 @@
+
+body{
+    background-color:gold;
+    color: whitesmoke;
+    
+}
+
+h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace ;
+     
+}
+h2{ 
+    font-family:'Courier New', Courier, monospace ;
+    font-style: oblique;
+    color: black;
+
+}
+hr{ 
+
+    width:auto;
+    margin-left: 5px;
+  }
+p{
+   text-align:right; 
+}
+
+
+span{
+    font-weight: bold;
+    font-style: oblique;
+}
+address{
+    color: darkgray;
+}
+#infoSobreMi{
+    color:black;
+}
+
+.botones{
+    background-color: gold;
+    border-style:solid;
+    border-color: black;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.botones:hover{
+    background-color:black;
+    color:gold;
+}
+.contenedor{
+    
+    flex: 1;
+    padding: 10px;
+    margin-left: 15px;
+
+}
+#dataSobreMi{
+    margin-right: 200px;
+    margin-left: 15px;
+}
+#mi_logo{
+    width: 90px;
+    display: block;
+    margin: auto;
+}
+#fotoPerfil{
+    width: 100px;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+  float: left;
+  padding: 10px;
+  padding-left: 10px;
+  }
+
+.imagen_ilustrativa{
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    padding-left: 3px;   
+}
+.fotos_mias{
+    width: 165px;
+    height: auto;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 3px;
+}
